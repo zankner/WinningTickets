@@ -23,6 +23,6 @@ setuptools.setup(
     py_modules=["model_utils"],  # Name of the python package
     package_dir={'': 'winning_ticket/src'
                  },  # Directory of the source code of the package
-    install_requires=["torch==1.8.0",
+    install_requires=["torch==1.9.0",
                       "numpy==1.21.2"]  # Install other dependencies if any
 )
